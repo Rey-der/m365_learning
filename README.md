@@ -1,3 +1,11 @@
+<div align="right" style="margin-bottom:-2.5em">
+
+[![English](https://img.shields.io/badge/🇬🇧%20English-Navigate-0078D4?style=flat-square)](#english)
+&nbsp;&nbsp;
+[![Deutsch](https://img.shields.io/badge/🇩🇪%20Deutsch-Navigate-0078D4?style=flat-square)](#deutsch)
+
+</div>
+
 <div align="center">
 
 # Microsoft 365 Learning & Operations Lab
@@ -13,10 +21,6 @@
 [![License](https://img.shields.io/badge/License-Private-lightgrey?style=flat-square)](#)
 
 </div>
-
----
-
-[🇬🇧 English](#english) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🇩🇪 Deutsch](#deutsch)
 
 ---
 
@@ -420,4 +424,3 @@ m365_learning/
 ᴍᴀxɪᴍɪʟɪᴀɴ ᴡᴇᴛᴢᴇʟ
 
 </div>
-

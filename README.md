@@ -1,8 +1,8 @@
 <div align="right" style="margin-bottom:-2.5em">
 
-[![English](https://img.shields.io/badge/🇬🇧%20English-Navigate-A9A9A9?labelColor=000000&color=002200&style=flat-square)](#overview)
+[![English](https://img.shields.io/badge/🇬🇧%20English-Navigate-A9A9A9?labelColor=000000&color=000000&style=flat-square)](#overview)
 &nbsp;&nbsp;
-[![Deutsch](https://img.shields.io/badge/🇩🇪%20Deutsch-Navigate-A9A9A9?labelColor=000000&color=002200&style=flat-square)](#übersicht)
+[![Deutsch](https://img.shields.io/badge/🇩🇪%20Deutsch-Navigate-A9A9A9?labelColor=000000&color=000000&style=flat-square)](#übersicht)
 
 </div>
 

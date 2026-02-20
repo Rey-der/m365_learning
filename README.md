@@ -1,8 +1,8 @@
 <div align="right" style="margin-bottom:-2.5em">
 
-[![English](https://img.shields.io/badge/🇬🇧%20English-Navigate-0078D4?style=flat-square)](#english)
+[![English](https://img.shields.io/badge/🇬🇧%20English-Navigate-A9A9A9?labelColor=000000&color=002200&style=flat-square)](#overview)
 &nbsp;&nbsp;
-[![Deutsch](https://img.shields.io/badge/🇩🇪%20Deutsch-Navigate-0078D4?style=flat-square)](#deutsch)
+[![Deutsch](https://img.shields.io/badge/🇩🇪%20Deutsch-Navigate-A9A9A9?labelColor=000000&color=002200&style=flat-square)](#übersicht)
 
 </div>
 
@@ -21,10 +21,6 @@
 [![License](https://img.shields.io/badge/License-Private-lightgrey?style=flat-square)](#)
 
 </div>
-
----
-
-## English
 
 ---
 
@@ -220,11 +216,7 @@ m365_learning/
 
 ---
 
-<a name="deutsch"></a>
-
-## Deutsch
-
----
+<a name="übersicht"></a>
 
 ## Übersicht
 
@@ -238,11 +230,11 @@ Dieses Repository dokumentiert einen strukturierten, praktischen Ansatz zur Behe
 
 | | |
 |:--|:--|
-| **Tenant-first-Denken** | Konfigurationsentscheidungen statt Feature-Erkundung |
-| **Identität & Sicherheit** | Kern-Architekturprinzipien, keine Nachgedanken |
-| **Automatisierung** | Skriptgestützte Operationen, wo Wiederholbarkeit zählt |
-| **Troubleshooting** | Incident-basiertes Lernen statt passive Tutorials |
-| **Dokumentation** | Entscheidungsrationale und Trade-off-Analyse |
+| **Mandant zuerst** | Konfiguration vor Feature-Erkundung |
+| **Identität & Sicherheit** | Fundamentale Architektur, nicht nebensächlich |
+| **Automatisierung** | Skriptgesteuerte Prozesse für Wiederholbarkeit |
+| **Fehlersuche** | Lernen aus echten Incidents, nicht aus Tutorials |
+| **Dokumentation** | Begründungen und Abwägungen festhalten |
 
 Dies ist kein Demo-Projekt.  
 Dies ist eine **simulierte Betriebsumgebung**.
@@ -291,11 +283,11 @@ m365_learning/
 <tr>
 <td align="left" valign="top">
 <sub>Business Premium</sub><br><br>
-☐ Tenant-Baseline dokumentiert<br>
+☐ Mandanten-Basis dokumentiert<br>
 ☐ Admin-Rollen getrennt<br>
 ☐ Benutzer-Lebenszyklus definiert<br>
 ☐ Namenskonventionen angewendet<br>
-☐ MFA erzwungen<br>
+☐ MFA aktiviert<br>
 ☐ Identitätsrisiken dokumentiert
 </td>
 <td align="left" valign="top">
@@ -309,11 +301,11 @@ m365_learning/
 </td>
 <td align="left" valign="top">
 <sub>Teams & SharePoint</sub><br><br>
-☐ Architektur entworfen<br>
+☐ Architektur geplant<br>
 ☐ Berechtigungsmodell definiert<br>
-☐ Externe Freigabe getestet<br>
-☐ OneDrive-Governance<br>
-☐ Risiken identifiziert
+☐ externe Freigabe getestet<br>
+☐ OneDrive Governance eingerichtet<br>
+☐ Risiken identifiziert<br>
 </td>
 </tr>
 </table>
@@ -345,13 +337,13 @@ m365_learning/
 ☐ Conditional Access<br>
 ☐ Risikobasierte Richtlinien<br>
 ☐ Admin-Zugriff gehärtet<br>
-☐ Zero Trust dokumentiert
+☐ Zero Trust dokumentiert<br>
 </td>
 <td align="left" valign="top">
 <sub>E5 · Defender</sub><br><br>
 ☐ Benachrichtigungen analysiert<br>
 ☐ Incident-Workflow definiert<br>
-☐ Schritte dokumentiert
+☐ Schritte dokumentiert<br>
 </td>
 </tr>
 </table>
@@ -419,7 +411,7 @@ m365_learning/
 
 <div align="center">
 
-<sub>**Dokumentation** · **Architektur** · **Betrieb**</sub>
+<sub>**Documentation** · **Architecture** · **Operations**</sub>
 
 ᴍᴀxɪᴍɪʟɪᴀɴ ᴡᴇᴛᴢᴇʟ
 

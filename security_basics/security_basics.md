@@ -26,6 +26,7 @@ security_basics/
 ├── defender_basics.md              Safe Links, Safe Attachments, anti-phishing
 ├── audit_logging.md                Unified Audit Log configuration and usage
 ├── security_incidents.md           Detection, response, lessons learned
+├── screenshots/                    Configuration evidence
 └── policies/
     ├── CA-Block-Legacy-Auth.json   Sample Conditional Access policy
     ├── CA-Require-MFA-Admins.json  Admin MFA enforcement

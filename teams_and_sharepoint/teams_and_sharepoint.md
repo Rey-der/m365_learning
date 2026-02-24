@@ -26,6 +26,7 @@ teams_and_sharepoint/
 ├── external_sharing.md             External user policies, anonymous links, expiration
 ├── onedrive_governance.md          Sync policies, retention, known folder move
 ├── teams_policies.md               Meeting policies, messaging policies, app policies
+├── screenshots/                    Configuration evidence
 └── scripts/
     ├── New-Team.ps1                Standardized Team creation
     ├── Set-SitePermissions.ps1     SharePoint permission automation

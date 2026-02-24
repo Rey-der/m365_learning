@@ -26,6 +26,7 @@ exchange_online/
 ├── distribution_groups.md          Distribution lists, dynamic groups, moderation
 ├── email_security.md               Anti-spam, anti-malware, transport rules
 ├── mobile_device_access.md         ActiveSync policies, device management
+├── screenshots/                    Configuration evidence
 └── scripts/
     ├── New-SharedMailbox.ps1       Shared mailbox creation automation
     ├── Get-MailFlowReport.ps1      Mail flow statistics and diagnostics

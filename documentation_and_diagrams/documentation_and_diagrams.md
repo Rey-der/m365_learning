@@ -44,6 +44,8 @@ documentation_and_diagrams/
 │   ├── permission_model.md         RBAC design and group strategy
 │   └── backup_strategy.md          Data protection and recovery approach
 │
+├── screenshots/                    Configuration evidence
+│
 └── runbooks/
     ├── tenant_initialization.md    Step-by-step tenant setup
     ├── user_onboarding.md          New user provisioning process

@@ -36,6 +36,8 @@ learning_roadmap/
 │   ├── powershell_automation.md    PowerShell skill development
 │   └── troubleshooting_mastery.md  Incident response and diagnostics
 │
+├── screenshots/                    Learning progress evidence
+│
 └── projects/
     ├── project_01_baseline.md      Tenant baseline configuration
     ├── project_02_identity.md      Identity and access management
@@ -48,31 +50,31 @@ learning_roadmap/
 
 ## Learning Phases
 
-### Phase 1: Foundations (Weeks 1-4)
+### Phase 1: Foundations 
 - Tenant initialization and baseline configuration
 - Basic identity and access management
 - Fundamental security controls (MFA, Conditional Access basics)
 - PowerShell connection and basic cmdlets
 
-### Phase 2: Security & Compliance (Weeks 5-8)
+### Phase 2: Security & Compliance 
 - Advanced Conditional Access policies
 - Microsoft Defender for Office 365
 - Data Loss Prevention (DLP)
 - Compliance and information protection
 
-### Phase 3: Collaboration & Productivity (Weeks 9-12)
+### Phase 3: Collaboration & Productivity 
 - Teams and SharePoint architecture
 - External sharing and governance
 - OneDrive for Business management
 - Exchange Online advanced configuration
 
-### Phase 4: Endpoint & Automation (Weeks 13-16)
+### Phase 4: Endpoint & Automation 
 - Intune device management
 - Compliance policies and security baselines
 - PowerShell automation development
 - Reporting and operational scripts
 
-### Phase 5: Operations & Incidents (Weeks 17-20)
+### Phase 5: Operations & Incidents
 - Incident simulation and response
 - Troubleshooting workflows
 - Documentation and decision logs

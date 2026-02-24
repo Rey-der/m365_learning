@@ -26,6 +26,7 @@ endpoint_management/
 ├── security_baselines.md           Microsoft security baselines for Windows, Edge
 ├── application_management.md       App deployment, protection policies, mobile app management
 ├── device_lifecycle.md             Enrollment, monitoring, retirement, wipe
+├── screenshots/                    Configuration evidence
 └── policies/
     ├── compliance-windows.json     Sample Windows compliance policy
     ├── config-bitlocker.json       BitLocker configuration profile

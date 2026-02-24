@@ -38,6 +38,8 @@ incidents_and_troubleshooting/
 │   ├── email_not_delivered.md      Mail flow troubleshooting steps
 │   └── teams_not_working.md        Teams connectivity diagnostics
 │
+├── screenshots/                    Incident evidence
+│
 └── lessons_learned/
     ├── 2025-Q4-review.md           Quarterly incident review
     └── improvement_backlog.md      Process improvement tracking

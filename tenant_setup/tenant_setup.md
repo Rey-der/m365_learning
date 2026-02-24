@@ -25,6 +25,7 @@ tenant_setup/
 ├── licensing_strategy.md           License allocation and justification
 ├── naming_conventions.md           Standards for users, groups, resources
 ├── tenant_timeline.md              Key configuration milestones
+├── screenshots/                    Configuration evidence
 └── scripts/
     ├── Initialize-Tenant.ps1       Baseline setup automation
     └── Validate-Baseline.ps1       Configuration verification

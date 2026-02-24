@@ -26,6 +26,7 @@ identity/
 ├── identity_protection.md          Risk policies, MFA enforcement
 ├── privileged_access.md            PIM, emergency access accounts
 ├── external_identities.md          B2B collaboration, guest policies
+├── screenshots/                    Configuration evidence
 └── scripts/
     ├── New-StandardUser.ps1        User creation with compliance defaults
     ├── New-DynamicGroup.ps1        Group automation examples

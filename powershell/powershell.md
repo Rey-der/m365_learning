@@ -40,6 +40,11 @@ powershell/
 │   ├── Get-LicenseUsage.ps1        License allocation and usage
 │   └── Get-SecurityReport.ps1      Security posture summary
 │
+├── graph_api/
+│   ├── Get-GraphUserReport.ps1     User reporting via Graph
+│   ├── Get-GraphSignInLogs.ps1     Sign-in log analysis
+│   └── Set-GraphBulkUpdate.ps1     Bulk user attribute updates
+│
 └── utilities/
     ├── Export-TenantConfig.ps1     Backup tenant configuration
     ├── Test-ConditionalAccess.ps1  Validate CA policy impact

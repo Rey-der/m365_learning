@@ -26,6 +26,7 @@ user_experience/
 ├── training_strategy.md            User onboarding, documentation, support resources
 ├── communication_plan.md           Change management, rollout communication
 ├── productivity_tools.md           Power Automate, Forms, Planner, To Do
+├── screenshots/                    Configuration evidence
 └── guides/
     ├── onboarding_checklist.md     New user onboarding steps
     ├── office_quick_start.md       Microsoft 365 Apps quick start guide

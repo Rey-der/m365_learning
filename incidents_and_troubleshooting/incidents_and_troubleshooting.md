@@ -20,7 +20,6 @@ This folder documents simulated real-world incidents, troubleshooting workflows,
 ```
 incidents_and_troubleshooting/
 │
-├── incident_template.md            Standard incident documentation format
 ├── troubleshooting_workflows/
 │   ├── authentication_failures.md  Common auth issues and resolution
 │   ├── mail_flow_issues.md         Email delivery troubleshooting
@@ -28,7 +27,6 @@ incidents_and_troubleshooting/
 │   └── sharepoint_access.md        Permission and access issues
 │
 ├── incidents/
-│   ├── INC-001-MFA-Lockout.md      Mass MFA lockout incident
 │   ├── INC-002-Mail-Delay.md       Mail flow delay investigation
 │   ├── INC-003-License-Depletion.md  Unexpected license shortage
 │   └── INC-004-CA-Policy-Impact.md Conditional Access policy misconfiguration

@@ -20,9 +20,7 @@ This folder contains PowerShell scripts for Microsoft 365 administration: automa
 ```
 powershell/
 │
-├── README.md                       Script inventory and usage guidelines
 ├── connection_scripts/
-│   ├── Connect-M365Services.ps1    Connect to all M365 modules
 │   └── Test-M365Connection.ps1     Validate service connections
 │
 ├── user_management/
@@ -37,7 +35,6 @@ powershell/
 │
 ├── reporting/
 │   ├── Get-TenantReport.ps1        Comprehensive tenant health report
-│   ├── Get-LicenseUsage.ps1        License allocation and usage
 │   └── Get-SecurityReport.ps1      Security posture summary
 │
 ├── graph_api/
@@ -47,8 +44,7 @@ powershell/
 │
 └── utilities/
     ├── Export-TenantConfig.ps1     Backup tenant configuration
-    ├── Test-ConditionalAccess.ps1  Validate CA policy impact
-    └── logging_module.psm1         Centralized logging functions
+    └── Test-ConditionalAccess.ps1  Validate CA policy impact
 ```
 
 ---

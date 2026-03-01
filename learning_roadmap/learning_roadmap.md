@@ -130,3 +130,91 @@ learning_roadmap/
 ## Operational Context
 
 This is **not** passive learning. Every module, project, and certification goal is tied to demonstrable operational competence. This roadmap exists to ensure structured progress from "can follow tutorials" to "can operate production environment" — the standard for a Junior Microsoft 365 Engineer.
+
+---
+
+---
+
+# Lern-Roadmap (Deutsch)
+
+## Zweck
+
+Dieser Ordner dokumentiert den strukturierten Lernplan, Fortschrittserfassung, Fähigkeitsbewertung und Zertifizierungsziele. Der Fokus liegt auf bewusster Fähigkeitsentwicklung, die an berufliche Anforderungen eines Junior Microsoft 365 Engineers ausgerichtet ist.
+
+---
+
+## Ziele
+
+- Definiere klare Lernmeilensteine und messbare Ergebnisse
+- Verfolgew fortschritt durch operative Domänen
+- Identifiziere Kenntnislücken und priorisiere Lernbemühungen
+- Dokumentiere Zertifizierungspfad und Vorbereitungsstrategie
+
+---
+
+## Lernphasen
+
+### Phase 1: Grundlagen
+- Mandanten-Initialisierung und Basis-Konfiguration
+- Grundlegende Identitäts- und Zugriffsverwaltung
+- Fundamentale Sicherheitskontrollen (MFA, Conditional Access Grundlagen)
+- PowerShell-Verbindung und grundlegende Cmdlets
+
+### Phase 2: Sicherheit & Compliance
+- Erweiterte Conditional Access-Richtlinien
+- Microsoft Defender für Office 365
+- Data Loss Prevention (DLP)
+- Compliance und Informationsschutz
+
+### Phase 3: Zusammenarbeit & Produktivität
+- Teams- und SharePoint-Architektur
+- Externe Freigabe und Governance
+- OneDrive for Business-Verwaltung
+- Exchange Online erweiterte Konfiguration
+
+### Phase 4: Endpoint & Automatisierung
+- Intune-Geräteverwaltung
+- Compliance-Richtlinien und Sicherheits-Baselines
+- PowerShell-Automatisierung Entwicklung
+- Berichtswesen und operative Skripte
+
+### Phase 5: Betrieb & Vorfälle
+- Incident-Simulation und -Reaktion
+- Troubleshooting-Workflows
+- Dokumentation und Entscheidungsprotokolle
+- Portfolio-Vorbereitung für Bewerbungsgespräche
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Fähigkeitsbewertung** | Aktuelle Kompetenzen auf berufliche Anforderungen abgebildet | ☐ |
+| **Lern-Roadmap** | Phasierter Lernplan mit Meilensteinen und Zeitplänen | ☐ |
+| **Wöchentliche Ziele** | Kurzfristige Ziele verfolgt und überprüft | ☐ |
+| **Projektabschluss** | 5 praktische Projekte, die operative Fähigkeiten demonstrieren | ☐ |
+| **Zertifizierungsvorbereitung** | Lernplan für MS-900 und MS-102 Zertifizierungen | ☐ |
+
+---
+
+## Erfolgsfaktoren
+
+- **Operative Kompetenz**: Fähigkeit, M365 unabhängig zu konfigurieren, verwalten und Fehler zu beheben
+- **Dokumentationsqualität**: Entscheidungsprotokolle und Architektur-Docs bereit für Interview-Überprüfung
+- **Automatisierungs-Kompetenz**: 10+ PowerShell-Skripte, die praktische Automatisierung demonstrieren
+- **Incident Response**: 5+ dokumentierte Vorfälle, die strukturierte Fehlersuche zeigen
+- **Portfolio-Bereitschaft**: GitHub-Repository, das produktionsreifes Denken demonstriert
+
+---
+
+## Zertifizierungsziele
+
+### Kurzfristig
+- **MS-900**: Microsoft 365 Grundlagen (validiert Grundlagenwissen)
+
+### Mittelfristig
+- **MS-102**: Microsoft 365 Administrator Associate (validates operative Kompetenz)
+
+### Langfristig
+- Weitere Spezialisierungen basierend auf Karrierezielen

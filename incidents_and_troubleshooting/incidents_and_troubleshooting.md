@@ -95,3 +95,69 @@ Each incident follows this structure:
 ## Operational Context
 
 Incidents are **inevitable**. This folder treats them as learning opportunities, not failures. Every incident here is analyzed for root cause, documented for knowledge transfer, and used to improve processes. This is not about avoiding all incidents — it's about responding effectively and preventing recurrence.
+
+---
+
+---
+
+# Vorfälle & Fehlersuche (Deutsch)
+
+## Zweck
+
+Dieser Ordner dokumentiert simulierte reale Vorfälle, Troubleshooting-Workflows und gelernte Lektionen. Der Fokus liegt auf strukturellem Problemlösen, Ursachen-Analyse und Präventivmaßnahmen.
+
+---
+
+## Ziele
+
+- Simuliere realistische operative Vorfälle
+- Dokumentiere Erkennungs-, Analyse- und Lösungsschritte
+- Führe Ursachen-Analyse durch und identifiziere Präventivmaßnahmen
+- Baue Incident Response Playbooks
+
+---
+
+## Vorfall-Dokumentationsformat
+
+Jeder Vorfall folgt dieser Struktur:
+
+1. **Zusammenfassung**: Kurzbeschreibung, Schweregrad, Auswirkung
+2. **Zeitleiste**: Erkennungs-, Eskalations-, Lösungs-Zeitstempel
+3. **Erkennung**: Wie das Problem entdeckt wurde (Warnung, Benutzer­bericht, Überwachung)
+4. **Analyse**: Untersuchungsschritte, Erkenntnisse, Ursache
+5. **Lösung**: Durchgeführte Aktionen, Workarounds, permanente Lösung
+6. **Grundursache**: Technische Grundursache, beitragende Faktoren
+7. **Gelernte Lektionen**: Was gut lief, was sich verbessern könnte, Präventivmaßnahmen
+8. **Aktionselemente**: Nachfolgecaufgaben, Richtlinienänderungen, Dokumentationsaktualisierungen
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Vorfall-Dokumentation** | Mindestens 5 realistische Vorfälle mit vollständiger Zeitleiste dokumentiert | ☐ |
+| **Troubleshooting-Workflows** | Häufige Problemkategorien mit diagnostischen Schritten | ☐ |
+| **Response Playbooks** | Standardisierte Reaktionsvorgänge für häufige Probleme | ☐ |
+| **Gelernte Lektionen Datenbank** | Vierteljährliche Überprüfungen, Verbesserungsverfolgung | ☐ |
+| **Überwachung & Benachrichtigungen** | Erkennungsmechanismen für häufige Fehlerszenarien | ☐ |
+
+---
+
+## Beispiel Vorfall-Szenarien
+
+- **MFA-Sperre**: Benutzer nach MFA-Methodenänderung gesperrt
+- **Mailfluss-Verzögerung**: Eingangsemail verzögert wegen Konnektormisconfiguration
+- **Lizenzerschöpfung**: Service-Unterbrechung wegen Lizenzmangel
+- **Conditional Access Auswirkung**: Zu restriktive Richtlinie blockiert legitime Benutzer
+- **Teams-Ausfall**: Regionale Service-Unterbrechung und Kommunikationsstrategie
+- **Datenverlust**: Versehentliches Dateilöschen und Wiederherstellungsprozess
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- Vorfall-Schwergradklassifizierung (P1/P2/P3/P4)
+- Eskalationspfade und Kommunikationsprotokolle
+- Post-Incident-Review-Prozess (Zeitpunkt, Teilnehmer, Dokumentation)
+- Priorisierung von Präventivmaßnahmen (schnelle Lösungen vs. architektonische Änderungen)

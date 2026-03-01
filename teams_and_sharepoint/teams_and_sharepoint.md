@@ -59,3 +59,43 @@ teams_and_sharepoint/
 ## Operational Context
 
 Collaboration tools are **high-risk** due to external sharing capabilities. Every configuration here balances productivity with security. This is not about enabling every sharing option — it's about defining clear boundaries for controlled collaboration.
+
+---
+
+---
+
+# Teams & SharePoint (Deutsch)
+
+## Zweck
+
+Dieser Ordner dokumentiert die Microsoft Teams- und SharePoint Online-Konfiguration: Zusammenarbeit-Architektur, Berechtigungsmodelle, Governance-Richtlinien und externe Freigabesteuern. Der Fokus liegt auf kontrollierter Zusammenarbeit mit klaren Sicherheitsgrenzen.
+
+---
+
+## Ziele
+
+- Entwerfe Teams- und SharePoint-Architektur für Skalierbarkeit
+- Definiere Berechtigungsmodelle (Standort-Besitzer, Mitglieder, Besucher)
+- Implementiere Externe-Freigabe-Richtlinien mit Sicherheitskontrollen
+- Konfiguriere OneDrive for Business mit Governance-Richtlinien
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Zusammenarbeit-Architektur** | Standort-Hierarchie, Teams-Struktur, Namenskonventionen dokumentiert | ☐ |
+| **Berechtigungsmodell** | Klare Rollendefinitionen, Vererbungsregeln, externe Zugriffskontrolle | ☐ |
+| **Externe Freigabe-Richtlinien** | Kontrollierter externer Zugriff, Link-Ablauf, Auditing aktiviert | ☐ |
+| **OneDrive Governance** | Synch-Richtlinien, Aufbewahrung, Known Folder Move konfiguriert | ☐ |
+| **Teams-Richtlinien** | Besprechungs-, Messaging- und App-Richtlinien definiert und angewendet | ☐ |
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- Site-Architektur: Hub-Standorte vs. flache Struktur (Abwägung: Navigation vs. Komplexität)
+- Externe Freigabe: Standardmäßig Ablehnen vs. kontrolliertes Zulassen (Sicherheit vs. Zusammenarbeit-Reibung)
+- Teams-Lebenszyklus: permanent vs. Ablauf-Richtlinien (Speicherkosten vs. Benutzerererfahrung)
+- OneDrive-Synch: Alles zulassen vs. nur Domain-Mitglied (BYOD vs. Sicherheit)

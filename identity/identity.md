@@ -59,3 +59,43 @@ identity/
 ## Operational Context
 
 Identity is the **perimeter** in a Zero Trust model. Every decision here impacts authentication, authorization, and auditability. This is not about enabling features — it's about defining who can access what, when, and under which conditions.
+
+---
+
+---
+
+# Identität (Deutsch)
+
+## Zweck
+
+Dieser Ordner behandelt **Entra ID** (Azure Active Directory) als Identitätsfundament für Microsoft 365. Er umfasst Benutzer-Lebenszykl-Management, Gruppenstrategie, Zugriffskontrolle und Identitätsrisiko-Mitigation.
+
+---
+
+## Ziele
+
+- Implementiere einen skalierbaren Benutzer-Bereitstellungs- und Deprovisioning-Prozess
+- Entwerfe eine Gruppenstrategie (Sicherheitsgruppen vs. Microsoft 365-Gruppen, dynamische Zugehörigkeit)
+- Konfiguriere Identitätsschutz und risikobasierte Richtlinien
+- Dokumentiere Zugriff-Überprüfungen und Privileged Identity Management
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Benutzer-Lebenszykl-Prozess** | Standardisierte Onboarding-, Änderungs- und Offboarding-Workflows | ☐ |
+| **Gruppenentwurf-Dokument** | Gruppentypen, Namenskonventionen, dynamische Zugehörigkeitsregeln | ☐ |
+| **Identitätsschutz** | Risikobasierte Richtlinien, MFA-Durchsetzung, Anmelde-Risiko-Reaktion | ☐ |
+| **Privileged Identity Management** | PIM-Konfiguration, Notfall-Zugangskonten | ☐ |
+| **Zugriff-Überprüfungs-Prozess** | Periodische Überprüfung der Gruppenzugehörigkeit und Rollenzuweisungen | ☐ |
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- Warum dynamische Gruppen anstelle von manueller Zugehörigkeit (Abwägung: Automatisierung vs. Komplexität)
+- MFA-Durchsetzungsstrategie: Sicherheitsstandards vs. Conditional Access
+- Privileged Identity Management: Just-in-Time-Zugriff vs. permanente Zuweisungen
+- Externe Benutzerpolitik: Deny-all vs. kontrollierte Zusammenarbeit

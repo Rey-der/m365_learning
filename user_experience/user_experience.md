@@ -59,3 +59,43 @@ user_experience/
 ## Operational Context
 
 User experience is **often overlooked** in technical projects. Every configuration here considers the end-user impact. This is not about enforcing IT policies — it's about enabling productivity while maintaining security and manageability.
+
+---
+
+---
+
+# Benutzererfahrung (Deutsch)
+
+## Zweck
+
+Dieser Ordner dokumentiert endbenutzerseitige Services und Konfigurationen: Microsoft 365 Apps-Bereitstellung, Benutzereinstellungsverwaltung, Self-Service-Funktionen und Schulungs-/Kommunikationsstrategien. Der Fokus liegt auf der Balance zwischen Benutzerproduktivität und Sicherheit und Verwaltbarkeit.
+
+---
+
+## Ziele
+
+- Stelle Microsoft 365 Apps bereit und verwalte sie (Office-Anwendungen)
+- Konfiguriere Benutzereinstellungen und Voreinstellungen (Roaming, OneDrive Known Folder Move)
+- Ermögliche Self-Service-Funktionen (Passwort-Zurücksetzen, Gruppenverwaltung)
+- Dokumentiere Benutzer-Schulungs- und Kommunikationsansätze
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Office Apps Bereitstellung** | Microsoft 365 Apps bereitgestellt, Update-Kanal konfiguriert | ☐ |
+| **Benutzereinstellungs-Management** | Einstellungs-Roaming, Known Folder Move konfiguriert | ☐ |
+| **Self-Service-Funktionen** | SSPR aktiviert, My Apps-Portal konfiguriert, Gruppen-Self-Service aktiviert | ☐ |
+| **Benutzer-Schulungsmaterialien** | Onboarding-Handbücher, Quick-Start-Dokumentation, Support-Ressourcen | ☐ |
+| **Kommunikationsplan** | Rollout-Kommunikationsvorlagen, Change-Management-Prozess | ☐ |
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- Office-Bereitstellung: Click-to-Run vs. webbasiert (Flexibilität vs. Kontrolle)
+- Update-Kanal: aktuell vs. monatlich Enterprise (Stabilität vs. neueste Funktionen)
+- Known Folder Move: erzwungen vs. optional (Datenschutz vs. Benutzerautonomie)
+- Self-Service: aktiviert vs. IT-kontrolliert (Benutzer-Ermächtigung vs. Support-Belastung)

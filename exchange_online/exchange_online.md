@@ -59,3 +59,43 @@ exchange_online/
 ## Operational Context
 
 Email is **mission-critical**. Every configuration here is documented with the understanding that mail flow disruption is unacceptable. This is not about enabling every feature — it's about ensuring reliable, secure email delivery.
+
+---
+
+---
+
+# Exchange Online (Deutsch)
+
+## Zweck
+
+Dieser Ordner dokumentiert die Exchange Online-Konfiguration: Mailfluss, Postfach-Richtlinien, freigegebene Postfächer, Verteilerlisten und E-Mail-Sicherheit. Der Fokus liegt auf operativer Zuverlässigkeit und Sicherheit statt Feature-Erkundung.
+
+---
+
+## Ziele
+
+- Etabliere zuverlässigen Mailfluss (eingehend, ausgehend, intern)
+- Konfiguriere Postfach-Richtlinien und Aufbewahrung
+- Implementiere freigegebene Postfächer und Verteilungsgruppen
+- Dokumentiere E-Mail-Sicherheitsrichtlinien (Anti-Spam, Anti-Malware, Transportregeln)
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Mailfluss-Konfiguration** | Konnektoren, Transportregeln, Mail-Weiterleitung dokumentiert | ☐ |
+| **Postfach-Richtlinien** | Aufbewahrungsrichtlinien, Archivierung, Rechtsbestand konfiguriert | ☐ |
+| **Gemeinsame Ressourcen** | Freigegebene Postfächer, Raumpostfächer, Ausrüstungspostfächer erstellt | ☐ |
+| **E-Mail-Sicherheit** | Anti-Spam, Anti-Malware, Transportregeln (DLP, Verschlüsselung) | ☐ |
+| **Mobiler Zugriff** | ActiveSync-Richtlinien, Gerätezugriffsregeln konfiguriert | ☐ |
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- Aufbewahrungsrichtlinie: Archivieren vs. Löschen (Compliance vs. Speicherkosten)
+- Freigegebene Postfach-Berechtigungen: Vollzugriff vs. Senden als vs. Senden im Auftrag
+- Mailflussregeln: wann Transportregeln vs. DLP-Richtlinien verwendet werden
+- Mobiler Gerätezugriff: Alle zulassen vs. Conditional Access-basierte Einschränkungen

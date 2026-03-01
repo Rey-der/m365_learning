@@ -85,3 +85,55 @@ All scripts in this folder follow these standards:
 ## Operational Context
 
 Automation is **essential** for consistent operations. Every script here is written with repeatability and auditability in mind. This is not about one-off fixes — it's about building reliable, documented automation that reduces manual effort and human error.
+
+---
+
+---
+
+# PowerShell (Deutsch)
+
+## Zweck
+
+Dieser Ordner enthält PowerShell-Skripte für Microsoft 365-Administration: Automatisierung, Berichtswesen, Massenoperationen und Wartungsaufgaben. Der Fokus liegt auf wiederholbarer, dokumentierter und testabler Automatisierung.
+
+---
+
+## Ziele
+
+- Automatisiere häufige Verwaltungsaufgaben (Benutzerbereitstellung, Gruppenverwaltung)
+- Erstelle Berichtsskripte für operative Transparenz
+- Dokumentiere Skript-Verwendung, Parameter und Abhängigkeiten
+- Implementiere Fehlerbehandlung und Protokollierung
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Verbindungs-Skripte** | Standardisierte Verbindung zu allen M365-Services | ☐ |
+| **Benutzer-Automatisierung** | Benutzerbereitstellung, Offboarding, Berichtsskripte | ☐ |
+| **Gruppen-Automatisierung** | Gruppenerstellung, Mitgliedschaftsverwaltung, Berichtswesen | ☐ |
+| **Berichts-Suite** | Mandanten-Zustand, Lizenzzuordnung, Sicherheitsberichte | ☐ |
+| **Konfiguration Backup** | Mandanten-Konfiguration Exportieren und Dokumentation | ☐ |
+
+---
+
+## Skript-Standards
+
+Alle Skripte in diesem Ordner folgen diesen Standards:
+
+- **Kommentarbasierte Hilfe**: Jedes Skript enthält `.SYNOPSIS`, `.DESCRIPTION`, `.PARAMETER`, `.EXAMPLE`
+- **Fehlerbehandlung**: `try/catch` Blöcke, aussagekräftige Fehlermeldungen
+- **Protokollierung**: Alle Aktionen mit Zeitstempel protokolliert
+- **Tests**: Skript in nicht-produktiver Umgebung getestet vor Verwendung
+- **Versionsverwaltung**: Skript-Version in Kommentaren nachverfolgt
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- Skript-Speicherort: lokal vs. Azure Automation vs. GitHub (Portabilität vs. Automatisierung)
+- Berechtigungsverwaltung: gespeicherte Berechtigungen vs. interaktiv vs. verwaltete Identität (Sicherheit vs. Bequemlichkeit)
+- Modul-Versionen: neueste vs. fest verankert (Stabilität vs. Funktionen)
+- Ausführungsrichtlinie: RemoteSigned vs. AllSigned (Sicherheit vs. Benutzerfreundlichkeit)

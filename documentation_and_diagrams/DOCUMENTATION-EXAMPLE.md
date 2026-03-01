@@ -249,4 +249,71 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 **Last Updated:** 2026-02-24  
 **Version:** 1.0  
+**Last Updated:** 2026-02-24  
+**Version:** 1.0  
 **Status:** Template (fill with actual content)
+
+---
+
+---
+
+# Dokumentations-Beispiel-Vorlage (Deutsch)
+
+Diese Datei demonstriert die empfohlene Struktur und Formatierung für Dokumentationsdateien im M365 Learning-Projekt.
+
+---
+
+## Zweck
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dieser Abschnitt erklärt, warum diese Dokumentation existiert und welches Problem sie im operativen Kontext löst.
+
+---
+
+## Ziele
+
+- Erreiche erstes Ziel durch strukturierten Ansatz
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+- Dokumentiere Entscheidungen mit klarer Begründung und Alternativen
+- Halte operative Ausrichtung mit Sicherheitsanforderungen
+
+---
+
+## Erfolgskriterien
+
+- ✅ Alle Benutzer können auf Ressourcen ohne Reibung zugreifen
+- ☐ Sicherheitsrichtlinien durchgesetzt
+- ☐ Konfigurationsänderungen nachverfolgt und dokumentiert
+- ☐ Fehlersuchungs-Runbook monatlich aktualisiert
+- ☐ Null kritische Vorfälle related zu dieser Konfiguration
+
+---
+
+## Operativer Kontext
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Es geht nicht nur um Funktionen — es geht darum, nachhaltige, unterstützbare Betriebsvorgänge aufzubauen.
+
+**Wichtiger Hinweis:** Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Jede Entscheidung hier wirkt sich auf Produktion aus und sollte dokumentiert werden.
+
+---
+
+## Verwendungshinweise für Vorlage
+
+**Wie diese Vorlage verwendet wird:**
+
+1. Diese Datei als Ausgangspunkt kopieren
+2. Alle "Lorem ipsum" Abschnitte mit tatsächlichen Inhalten ersetzen
+3. Tabellen mit echten Daten aktualisieren
+4. Screenshots zum `/screenshots/` Ordner hinzufügen
+5. PowerShell-Skripte im `/scripts/` Ordner aufnehmen
+6. Links zu verwandten Dateien in deiner Dokumentationsstruktur einfügen
+7. Entscheidungsprotokolle aktualisieren, wenn sich Konfigurationen entwickeln
+
+**Wichtige Elemente, die immer enthalten sein sollten:**
+- Klare Zweck-Aussage
+- Strukturierte Ziele
+- Visuelle Ordner-/Dateistruktur
+- Konfigurationsschritte mit Beispielen
+- Fehlersuchungs-Abschnitt
+- Entscheidungsprotokoll mit Begründung
+- Links zu verwandter Dokumentation
+- Screenshots von Schlüssel-Konfigurationen

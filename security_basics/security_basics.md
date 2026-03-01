@@ -59,3 +59,43 @@ security_basics/
 ## Operational Context
 
 Security is **not optional**. Every configuration here is chosen to balance protection with usability. This is not about achieving 100% Secure Score — it's about making deliberate, documented decisions on acceptable risk.
+
+---
+
+---
+
+# Sicherheits-Grundlagen (Deutsch)
+
+## Zweck
+
+Dieser Ordner dokumentiert grundlegende Sicherheitskonfigurationen: Multi-Faktor-Authentifizierung, Conditional Access, Microsoft Secure Score und grundlegenden Bedrohungsschutz. Dies stellt die **minimale akzeptable Sicherheitslage** für einen Produktionsmandanten dar.
+
+---
+
+## Ziele
+
+- Erzwinge MFA für alle Benutzer (oder dokumentiere Ausnahmen)
+- Implementiere Conditional Access-Richtlinien mit klarer Absicht
+- Verfolge und verbessere Microsoft Secure Score systematisch
+- Aktiviere Microsoft Defender für Office 365 (falls lizenziert)
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **MFA-Durchsetzung** | MFA für alle Benutzer aktiviert, dokumentierte Ausnahmen | ☐ |
+| **Conditional Access-Richtlinien** | Kernrichtlinien: veraltete Authentifizierung blockieren, MFA für Admins erzwingen, Standort-basierter Zugriff | ☐ |
+| **Secure Score Baseline** | Initiale Bewertung dokumentiert, Verbesserungsplan definiert | ☐ |
+| **Defender für Office 365** | Safe Links, Safe Attachments, Anti-Phishing-Richtlinien konfiguriert | ☐ |
+| **Audit-Protokollierung** | Einheitliches Audit-Protokoll aktiviert, Aufbewahrung konfiguriert, Suche getestet | ☐ |
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- MFA für alle Benutzer vs. Conditional Access-basierte Durchsetzung (Abwägung: Einfachheit vs. Flexibilität)
+- Blockierung von Authentifizierung: sofort vs. schrittweise Einführung (Auswirkung auf Legacy-Apps)
+- Secure Score-Priorisierung: welche Empfehlungen zuerst implementieren
+- Defender-Richtlinien: Standard- vs. strenger Schutz (Benutzerreibung vs. Sicherheit)

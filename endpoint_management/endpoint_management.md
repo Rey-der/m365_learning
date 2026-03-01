@@ -59,3 +59,43 @@ endpoint_management/
 ## Operational Context
 
 Endpoint management is **critical** for Zero Trust. Every device accessing corporate resources must be managed and compliant. This is not about enrolling devices for visibility — it's about enforcing security policies and conditional access based on device health.
+
+---
+
+---
+
+# Endpoint Management (Deutsch)
+
+## Zweck
+
+Dieser Ordner dokumentiert die Microsoft Intune-Konfiguration: Geräteregistrierung, Compliance-Richtlinien, Konfigurationsprofile, Anwendungsverwaltung und Sicherheits-Baselines. Der Fokus liegt auf dem Sichern und Verwalten von Geräten, die auf Microsoft 365-Ressourcen zugreifen.
+
+---
+
+## Ziele
+
+- Registriere Geräte in Intune (Windows, iOS, Android)
+- Implementiere Compliance-Richtlinien und erzwinge Conditional Access
+- Stelle Konfigurationsprofile bereit (Sicherheit, Wi-Fi, VPN, E-Mail)
+- Wende Microsoft-Sicherheits-Baselines an
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Geräteregistrierung** | Registrierungsmethoden getestet, Autopilot konfiguriert (falls zutreffend) | ☐ |
+| **Compliance-Richtlinien** | Geräte-Compliance-Anforderungen definiert und durchgesetzt | ☐ |
+| **Konfigurationsprofile** | Sicherheitseinstellungen, Wi-Fi, VPN, E-Mail-Profile bereitgestellt | ☐ |
+| **Sicherheits-Baselines** | Microsoft-Sicherheits-Baselines auf Windows-Geräten angewendet | ☐ |
+| **App-Verwaltung** | App-Bereitstellung, MAM-Richtlinien, App-Schutz konfiguriert | ☐ |
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- Registrierungsmethode: Autopilot vs. manuell (Kosten vs. Benutzerererfahrung)
+- Compliance-Durchsetzung: nicht-konforme Geräte blockieren vs. als nicht-konform kennzeichnen (Sicherheit vs. Produktivität)
+- Konfigurationsprofile: Einstellungskatalog vs. Vorlagen (Flexibilität vs. Einfachheit)
+- Sicherheits-Baselines: Standard vs. angepasst (Standardsicherheit vs. Organisationsanforderungen)

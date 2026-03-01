@@ -57,3 +57,43 @@ tenant_setup/
 ## Operational Context
 
 This is **not** a feature demo — every setting here has a reason, a trade-off, and a documented alternative. Configuration choices reflect realistic constraints: budget, skill level, time, and risk tolerance.
+
+---
+
+---
+
+# Mandanten-Setup (Deutsch)
+
+## Zweck
+
+Dieser Ordner dokumentiert die grundlegenden Konfigurationsentscheidungen und die Verwaltungsstruktur für den Microsoft 365-Mandanten. Dies ist die erste operative Schicht – hier getroffene Entscheidungen beeinflussen alle nachfolgenden Arbeitsstränge.
+
+---
+
+## Ziele
+
+- Etabliere eine verteidigbare Baseline-Konfiguration
+- Definiere klare administrative Grenzen und Verantwortlichkeiten
+- Dokumentiere Lizenzentscheidungen und deren operative Auswirkungen
+- Erstelle wiederholbare Setup-Prozesse für Mandanten-Initialisierung
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Baseline-Konfiguration** | Grundlegende Mandanten-Einstellungen, Sicherheitsstandards, regionale Einstellungen | ☐ |
+| **Admin-Rollen-Modell** | Aufgabentrennung, Rollenzuweisungen, PIM-Konfiguration | ☐ |
+| **Namenskonventionen** | Benutzer-Principals, Gruppennamen, Ressourcen-Konventionen | ☐ |
+| **Lizenzierungsstrategie** | Business Premium vs E5-Nutzung, Zuweisungslogik | ☐ |
+| **Initialisierungs-Skript** | PowerShell-Automatisierung für wiederholbares Mandanten-Setup | ☐ |
+
+---
+
+## Entscheidungsprotokoll-Themen
+
+- Warum Business Premium als Basis gewählt wurde (Kosten- vs. Funktionsabwägung)
+- Admin-Rollen-Separierungsstrategie (Least Privilege vs. operative Reibung)
+- Regionale Datenresidenz-Überlegungen
+- Sicherheitsstandards: aktiviert oder benutzerdefinierter Conditional Access von Anfang an

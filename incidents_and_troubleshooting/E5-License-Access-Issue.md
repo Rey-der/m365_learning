@@ -220,3 +220,113 @@ None effective. Some alternatives investigated:
 ## Follow-up Notes
 
 *Add updates as troubleshooting progresses...*
+
+---
+
+---
+
+# Developer E5-Lizenz-Zugriffsproblem (Deutsch)
+
+**Datum**: 28. Februar 2026  
+**Status**: ❌ Ungelöst - Zugriff Noch Nicht Erhalten  
+**Priorität**: Hoch - Blockiert Lernziele  
+**Kategorie**: Lizenzierung & Zugriffsverwaltung
+
+---
+
+## Problemzusammenfassung
+
+Versuch, Developer E5-Lizenz-Zugriff für M365 Lern- und Laborumgebung zu erhalten. Trotz Befolgung aller dokumentierten Microsoft-Prozesse und Troubleshooting-Schritte wurde die Lizenz nicht bereitgestellt oder aktiviert.
+
+---
+
+## Durchgeführte Schritte
+
+### 1. Microsoft Developer Program Registrierung
+- [x] Microsoft-Konto erstellt
+- [x] Microsoft 365 Developer Program beigetreten
+- [x] Bedingungen akzeptiert
+- [x] E-Mail-Adresse verifiziert
+- [x] Profileinrichtung abgeschlossen
+
+**Ergebnis**: ✅ Programm-Anmeldung bestätigt
+
+---
+
+### 2. Developer Mandant Bereitstellung
+- [x] Developer Mandant über dev.microsoft.com angefordert
+- [x] Abonnementtyp und Region gewählt
+- [x] Setup-Assistent abgeschlossen
+- [x] Mandanten-Erstellungsbenachrichtigung bestätigt
+
+**Ergebnis**: ✅ Developer Mandant erfolgreich erstellt
+
+---
+
+### 3. E5-Lizenz Zuordnung
+- [x] Zu admin.microsoft.com navigiert
+- [x] Auf Lizenzmanagement > Produkte & Services zugegriffen
+- [x] Developer E5-Abonnement lokalisiert
+- [x] Versuch, Lizenz dem Benutzerkonto zuzuordnen
+- [x] Zuordnung in UI verifiziert
+
+**Ergebnis**: ❔ Lizenz als zugeordnet angezeigt, aber nicht funktionell
+
+---
+
+### 4. Service-Aktivierung
+- [x] 24 Stunden auf Lizenz-Propagierung gewartet (Microsoft Standard)
+- [x] Browser-Cache und Cookies gelöscht
+- [x] Zugriff auf alle M365-Services getestet:
+  - Exchange Online
+  - SharePoint Online
+  - Teams
+  - Power Platform
+  - Compliance Center
+  - Security Center
+- [x] Konto-Anmeldung verifiziert
+
+**Ergebnis**: ❌ Einige Services zugänglich, aber E5-spezifische Funktionen blockiert
+
+---
+
+### 5. Troubleshooting-Versuche
+
+#### Versuch A: Lizenz-Neuzuordnung
+- Lizenz vom Benutzerkonto entfernt
+- 4 Stunden gewartet
+- Lizenz erneut zugeordnet
+- In Microsoft 365 Admin Center verifiziert
+
+**Ergebnis**: Immer noch keine E5-Funktionen verfügbar
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Problem-Dokumentation** | Zentrale Referenz für E5-Zugriffsproblem | ✅ |
+| **Troubleshooting-Schritte** | Alle durchgeführten Untersuchung dokumentiert | ✅ |
+| **Erkannte Servicestatus** | Service-Matrix zeigt verfügbare vs. blockierte Funktionen | ✅ |
+| **Gelernte Lektionen** | Erkenntnisse z.B. über Lizenz-Propagierungsverzögerungen | ✅ |
+| **Nächste Schritte** | Eskalation und alternative Lösungen identifiziert | ✅ |
+
+---
+
+## Entscheidungsprotokoll
+
+| Entscheidung | Begründung | Datum |
+|----------|-----------|-------|
+| Mit verfügbaren Services fortfahren | E3-Funktionen noch wertvoll für Lernen | 2026-02-28 |
+| Problem gründlich dokumentieren | Hilft, Pattern zu identifizieren, falls andere unterstützt werden | 2026-02-28 |
+| Microsoft Support eskalieren | Benötigt offizielle Unterstützung zur Lösung | Ausstehend |
+
+---
+
+## Referenzen
+
+- [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program)
+- [Developer E5-Lizenz-Übersicht](https://learn.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program-get-started)
+- [Lizenz-Zuordnungs-Dokumentation](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users)
+- [Service-Verfügbarkeit nach Region](https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-service-descriptions-technet-library)

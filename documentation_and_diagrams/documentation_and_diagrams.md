@@ -104,3 +104,69 @@ Each decision log follows this structure:
 ## Operational Context
 
 Documentation is **not optional**. This folder exists because every configuration choice has a reason, a trade-off, and a potential audit question. This is not about documenting for the sake of documentation — it's about being able to defend decisions during operations, incidents, or assessments.
+
+---
+
+---
+
+# Dokumentation & Diagramme (Deutsch)
+
+## Zweck
+
+Dieser Ordner enthält Architektur-Dokumentation, Entscheidungsprotokolle, Netzwerk-Diagramme und Entwurfs-Begründungen. Der Fokus liegt auf der Dokumentation des **Why** (Warum), nicht nur des **What** (Was).
+
+---
+
+## Ziele
+
+- Dokumentiere Architektur-Entscheidungen mit Kontext und Alternativen
+- Erstelle visuellen Diagramme der Mandanten-Architektur und Datenflüsse
+- Verwalte Entscheidungsprotokolle für alle großen Konfigurationsentscheidungen
+- Stelle klare Begründung für Abwägungen und Risikoakàeptanz zur Verfügung
+
+---
+
+## Entscheidungsprotokoll-Format
+
+Jedes Entscheidungsprotokoll folgt dieser Struktur:
+
+1. **Entscheidung**: Klare Aussage der getroffenen Wahl
+2. **Kontext**: Situation, die eine Entscheidung erfordert, Einschränkungen, Anforderungen
+3. **Betrachtete Alternativen**: Andere evaluierte Optionen, Vor- und Nachteile
+4. **Entscheidungsbegründung**: Warum diese Option gewählt wurde
+5. **Abwägungen**: Was geopfert wurde, bekannte Einschränkungen
+6. **Risikobewertung**: Identifizierte Risiken, Mitigationsstrategien
+7. **Überprüfungsdatum**: Wann diese Entscheidung erneut bewertet werden soll
+
+---
+
+## Schlüssel-Lieferobjekte
+
+| Lieferobjekt | Beschreibung | Status |
+|:------------|:------------|:------:|
+| **Architektur-Dokumentation** | Mandanten-, Identitäts-, Sicherheits-, Daten-Architektur dokumentiert | ☐ |
+| **Visuelle Diagramme** | Authentifizierung, Mailfluss, CA, Data-Governance-Diagramme | ☐ |
+| **Entscheidungsprotokolle** | Mindestens 10 große Entscheidungen mit vollständigem Kontext dokumentiert | ☐ |
+| **Design-Dokumente** | Namenskonventionen, Berechtigungsmodell, Backup-Strategie | ☐ |
+| **Operative Runbooks** | Initialisierung, Onboarding, Incident Response-Vorgänge | ☐ |
+
+---
+
+## Dokumentations-Prinzipien
+
+- **Verteidigbar**: Jede Entscheidung kann erklärt und begründet werden
+- **Nachverfolgbar**: Klarer Ursprung von Anforderung zu Implementierung
+- **Prüfbar**: Dokumentation unterstützt Audits und Bewertungen
+- **Operative**: Dokumente unterstützen tägliche Operationen, nicht nur Designphase
+- **Lebendig**: Dokumentation wird aktualisiert, wenn sich Konfiguration ändert
+
+---
+
+## Beispiel Entscheidungsprotokoll-Themen
+
+- **Mandanten-Baseline**: Business Premium vs. E3 vs. E5 (Kosten vs. Funktionen)
+- **MFA-Strategie**: Sicherheitsstandards vs. Conditional Access (Einfachheit vs. Granularität)
+- **Conditional Access**: Block- vs. Allow-Modell (Sicherheit vs. Benutzerreibung)
+- **Externe Freigabe**: Offen vs. eingeschränkt (Zusammenarbeit vs. Datenschutz)
+- **Intune-Registrierung**: Autopilot vs. manuell (Investition vs. Benutzerererfahrung)
+- **Datensclassification**: Automatisch vs. manuell (Genauigkeit vs. Benutzer-Belastung)

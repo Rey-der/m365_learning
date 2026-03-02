@@ -52,6 +52,7 @@ This is a **simulated operational environment**.
 ```
 m365_learning/
 │
+├── resources/                       Central archive for screenshots and visual assets
 ├── tenant_setup/                    Initial tenant configuration & admin model
 ├── identity/                        Entra ID, users, groups, access control
 ├── security_basics/                 MFA, Conditional Access, Secure Score
@@ -246,6 +247,7 @@ Dies ist eine **simulierte Betriebsumgebung**.
 ```
 m365_learning/
 │
+├── resources/                       Zentrales Archiv für Screenshots und visuelle Elemente
 ├── tenant_setup/                    Initiale Mandantenkonfiguration & Admin-Modell
 ├── identity/                        Entra ID, Benutzer, Gruppen, Zugriffskontrolle
 ├── security_basics/                 MFA, Conditional Access, Secure Score

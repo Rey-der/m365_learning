@@ -54,6 +54,19 @@ documentation_and_diagrams/
 
 ---
 
+## Screenshots & Visual Assets
+
+All visual assets are centrally managed in the [resources/](../../resources/) folder for consistency and reuse across domains. Each domain has its own screenshot subfolder:
+
+- [resources/documentation_screenshots/](../../resources/documentation_screenshots/) - Architecture diagrams, decision logs, runbooks
+- [resources/tenant_setup_screenshots/](../../resources/tenant_setup_screenshots/) - Tenant baseline configuration
+- [resources/identity_screenshots/](../../resources/identity_screenshots/) - Entra ID and user lifecycle
+- *And more for each domain...*
+
+See [resources/README.md](../../resources/README.md) for detailed guidelines on naming, quality standards, and usage.
+
+---
+
 ## Decision Log Format
 
 Each decision log follows this structure:
@@ -123,6 +136,19 @@ Dieser Ordner enthält Architektur-Dokumentation, Entscheidungsprotokolle, Netzw
 - Erstelle visuellen Diagramme der Mandanten-Architektur und Datenflüsse
 - Verwalte Entscheidungsprotokolle für alle großen Konfigurationsentscheidungen
 - Stelle klare Begründung für Abwägungen und Risikoakàeptanz zur Verfügung
+
+---
+
+## Screenshots & Visuelle Vermögenswerte
+
+Alle visuellen Vermögenswerte werden zentral im [resources/](../../resources/)-Ordner verwaltet, um Konsistenz und Wiederverwendung über Domains hinweg zu gewährleisten. Jede Domain hat einen eigenen Screenshot-Unterordner:
+
+- [resources/documentation_screenshots/](../../resources/documentation_screenshots/) - Architektur-Diagramme, Entscheidungsprotokolle, Runbooks
+- [resources/tenant_setup_screenshots/](../../resources/tenant_setup_screenshots/) - Mandanten-Basis-Konfiguration
+- [resources/identity_screenshots/](../../resources/identity_screenshots/) - Entra ID und Benutzer-Lebenszykl
+- *Und mehr für jede Domain...*
+
+Siehe [resources/README.md](../../resources/README.md) für detaillierte Richtlinien zu Namenskonventionen, Qualitätsstandards und Verwendung.
 
 ---
 

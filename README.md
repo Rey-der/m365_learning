@@ -24,6 +24,56 @@
 
 ---
 
+## 🎯 Executive Summary
+
+<div align="center">
+
+**Production-ready portfolio demonstrating Junior Microsoft 365 Engineer competency**
+
+| Aspect | Details |
+|:-------|:--------|
+| **What** | Hands-on M365 operations lab—11 domains configured, 20+ automation scripts, 20+ incident scenarios |
+| **Timeline** | Started: Feb 2026 | Active development | Target completion: Q2 2026 |
+| **Evidence** | [Decision Logs](documentation_and_diagrams/decision_logs/) • [Incident Docs](incidents_and_troubleshooting/) • [Automation Scripts](powershell/) • [Architecture Decisions](documentation_and_diagrams/) |
+| **Key Competencies** | [Identity & Access](#skills-demonstrated) • [Security Implementation](#skills-demonstrated) • [Automation](#skills-demonstrated) • [Incident Response](#skills-demonstrated) • [Architectural Thinking](#skills-demonstrated) |
+
+</div>
+
+---
+
+## 🔑 Skills Demonstrated
+
+✅ **Identity & Access Control** — Entra ID, user lifecycle, group management, MFA enforcement  
+✅ **Security Configuration** — Conditional Access, threat protection, audit logging, Secure Score  
+✅ **Email & Collaboration** — Mail flow, shared mailboxes, Teams governance, SharePoint permissions  
+✅ **Endpoint Management** — Intune enrollment, device compliance, security baselines  
+✅ **PowerShell Automation** — 20+ scripts for provisioning, reporting, bulk operations  
+✅ **Problem-Solving** — 20+ incident scenarios with root cause analysis and preventive measures  
+✅ **Architectural Thinking** — 20+ documented decisions with trade-off analysis  
+✅ **Documentation** — Production-quality decision logs and deployment runbooks  
+
+---
+
+## 📊 Portfolio Evidence at a Glance
+
+| Domain | Status | Key Deliverable | View |
+|:-------|:------:|:---------------:|:-----|
+| **Identity & Access** | 🟢 Active | User lifecycle and group strategy | [identity/](identity/) |
+| **Security Basics** | 🟢 Active | MFA, Conditional Access, Secure Score | [security_basics/](security_basics/) |
+| **Exchange Online** | 🟢 Active | Mail flow, policies, shared mailboxes | [exchange_online/](exchange_online/) |
+| **Teams & SharePoint** | 🟢 Active | Collaboration governance, external sharing | [teams_and_sharepoint/](teams_and_sharepoint/) |
+| **Automation** | 🟢 Active | Connection scripts, user provisioning, reporting | [powershell/](powershell/) |
+| **Incidents & Troubleshooting** | 🟢 Active | 20+ documented incidents with analysis | [incidents_and_troubleshooting/](incidents_and_troubleshooting/) |
+| **Architecture & Decisions** | 🟢 Active | 20+ decision logs with rationale | [documentation_and_diagrams/decision_logs/](documentation_and_diagrams/) |
+
+📌 **Quick Links for Recruiters:**
+- 🔐 **Security Skills** → [Security Basics](security_basics/) + [Conditional Access Policies](documentation_and_diagrams/)
+- 🤖 **Automation Skills** → [PowerShell Scripts](powershell/)
+- 🚨 **Problem-Solving** → [Incident Documentation](incidents_and_troubleshooting/)
+- 🏗️ **Architecture Thinking** → [Decision Logs](documentation_and_diagrams/decision_logs/)
+
+---
+
 ## Overview
 
 This repository documents a structured, hands-on approach to mastering **Microsoft 365 operations** with one objective:
@@ -218,6 +268,36 @@ m365_learning/
 ---
 
 <a name="übersicht"></a>
+
+## 🎯 Executive Summary (Deutsch)
+
+<div align="center">
+
+**Produktionsreife Portfolio, die Kompetenz eines Junior Microsoft 365 Engineers demonstriert**
+
+| Aspekt | Details |
+|:-------|:--------|
+| **Was** | Praktisches M365 Operations Lab—11 Domains konfiguriert, 20+ Automatisierungsskripte, 20+ Incident-Szenarien |
+| **Zeitrahmen** | Gestartet: Feb 2026 | Aktive Entwicklung | Zieldatum: Q2 2026 |
+| **Beweise** | [Entscheidungsprotokolle](documentation_and_diagrams/decision_logs/) • [Vorfalls-Docs](incidents_and_troubleshooting/) • [Automatisierungsskripte](powershell/) • [Architektur-Entscheidungen](documentation_and_diagrams/) |
+| **Schlüsselkompetenzen** | [Identität & Zugriff](#demonstrierte-fähigkeiten) • [Sicherheitsimplementierung](#demonstrierte-fähigkeiten) • [Automatisierung](#demonstrierte-fähigkeiten) • [Incident Response](#demonstrierte-fähigkeiten) • [Architektur-Denken](#demonstrierte-fähigkeiten) |
+
+</div>
+
+---
+
+## 🔑 Demonstrierte Fähigkeiten
+
+✅ **Identität & Zugriffskontrolle** — Entra ID, Benutzer-Lebenszykl, Gruppenverwaltung, MFA-Durchsetzung  
+✅ **Sicherheitskonfiguration** — Conditional Access, Bedrohungsschutz, Audit-Protokollierung, Secure Score  
+✅ **E-Mail & Zusammenarbeit** — Mailfluss, freigegebene Postfächer, Teams-Governance, SharePoint-Berechtigungen  
+✅ **Endpoint-Verwaltung** — Intune-Registrierung, Geräte-Compliance, Sicherheits-Baselines  
+✅ **PowerShell-Automatisierung** — 20+ Skripte für Bereitstellung, Berichtswesen, Massenoperationen  
+✅ **Problemlösung** — 20+ Incident-Szenarien mit Ursachen-Analyse und Präventivmaßnahmen  
+✅ **Architektur-Denken** — 20+ dokumentierte Entscheidungen mit Trade-off-Analyse  
+✅ **Dokumentation** — Produktionsqualitäts-Entscheidungsprotokolle und Deployment-Runbooks  
+
+---
 
 ## Übersicht
 
